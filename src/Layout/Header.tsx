@@ -17,10 +17,10 @@ const showSidebar = () => setSidebar(!sidebar)
       <div className="bg-[#172645] pl-6 h-[70px] w-[280px] flex items-center">
 
         {/* icone do menu */}
-       
+        <button>
         <HamburgIcon onClick={showSidebar} className="hover:text-[#787878]" size={40} weight="bold" />
         {sidebar && <Sidebar/>}
-        
+        </button>
       </div>
 
       {/* lado direito do menu */}
