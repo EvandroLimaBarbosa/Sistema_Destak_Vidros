@@ -6,6 +6,3 @@
 [Figma](https://www.figma.com/file/9Hq28xEPX1fe4tCaVp4rPY/Untitled?node-id=2%3A2&t=w5tCdquJulvXIubD-1)
 
 [Acessar](https://sistema-destak-vidros-9sr8.vercel.app/)
-
-
-https://www.figma.com/file/9Hq28xEPX1fe4tCaVp4rPY/Untitled?node-id=2%3A2&t=w5tCdquJulvXIubD-1
