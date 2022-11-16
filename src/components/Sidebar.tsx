@@ -34,16 +34,16 @@ export default function Sidebar(props: SidebarProps) {
       {/* container dos links */}
       {props.activeAllScreen && (
         <div>
-          <ItemsSidebar link="fazerorcamento" value="Fazer Orçamento" />
-          <ItemsSidebar link="menuiniciar" value="Todos Orçamentos" />
-          <ItemsSidebar link="relatorios" value="Controle de Estoque" />
-          <ItemsSidebar link="" value="Saida estoque" />
-          <ItemsSidebar link="" value="Clientes" />
-          <ItemsSidebar link="" value="Produtos" />
-          <ItemsSidebar link="" value="Serviços" />
-          <ItemsSidebar link="" value="Notas Fiscais" />
-          <ItemsSidebar link="" value="Agenda" />
-          <ItemsSidebar link="" value="Relatorios" />
+          <ItemsSidebar onClick={props.onClick} link="fazerorcamento" value="Fazer Orçamento" />
+          <ItemsSidebar onClick={props.onClick} link="menuiniciar" value="Todos Orçamentos" />
+          <ItemsSidebar onClick={props.onClick} link="relatorios" value="Controle de Estoque" />
+          <ItemsSidebar onClick={props.onClick} link="" value="Saida estoque" />
+          <ItemsSidebar onClick={props.onClick} link="" value="Clientes" />
+          <ItemsSidebar onClick={props.onClick} link="" value="Produtos" />
+          <ItemsSidebar onClick={props.onClick} link="" value="Serviços" />
+          <ItemsSidebar onClick={props.onClick} link="" value="Notas Fiscais" />
+          <ItemsSidebar onClick={props.onClick} link="" value="Agenda" />
+          <ItemsSidebar onClick={props.onClick} link="" value="Relatorios" />
         </div>
       )}
     </div>

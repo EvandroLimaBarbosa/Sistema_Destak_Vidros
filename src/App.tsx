@@ -1,9 +1,5 @@
 import {
-  createBrowserRouter,
   BrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
 } from "react-router-dom";
 import Header from "./Layout/Header";
 import { AppRoutes } from "./routes";
