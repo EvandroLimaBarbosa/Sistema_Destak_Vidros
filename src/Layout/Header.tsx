@@ -9,6 +9,8 @@ export default function Header() {
 
   const showSidebar = () => setSidebar(!sidebar);
 
+  console.log(sidebar);
+
   return (
     //  Conteiner de todo o menu
     <div className="mx-auto h-[70px] pr-6 flex flex-row items-center bg-[#20345F] text-white justify-between shadow-[0_5px_10px_4px_#0000008a]">
@@ -16,14 +18,14 @@ export default function Header() {
       <div>
         {sidebar ? (
           <Sidebar
-            icon={HamburgIcon}
-            activeAllScreen={!sidebar}
+            icon={CloseIcon}
+            activeAllScreen={sidebar}
             onClick={showSidebar}
           />
         ) : (
           <Sidebar
-            icon={CloseIcon}
-            activeAllScreen={!sidebar}
+            icon={HamburgIcon}
+            activeAllScreen={sidebar}
             onClick={showSidebar}
           />
         )}

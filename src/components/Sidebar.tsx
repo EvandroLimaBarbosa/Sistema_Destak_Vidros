@@ -1,5 +1,5 @@
 import ItemsSidebar from "./ItemsSidebar";
-import LogoDestak from "/public/Logo Transparente Branca 3.png";
+import LogoDestak from "/Logo Transparente Branca 3.png";
 
 interface SidebarProps {
   onClick: any;
@@ -34,9 +34,9 @@ export default function Sidebar(props: SidebarProps) {
       {/* container dos links */}
       {props.activeAllScreen && (
         <div>
-          <ItemsSidebar link="" value="Fazer Orçamento" />
-          <ItemsSidebar link="fazerorcamento" value="Todos Orçamentos" />
-          <ItemsSidebar link="" value="Controle de Estoque" />
+          <ItemsSidebar link="fazerorcamento" value="Fazer Orçamento" />
+          <ItemsSidebar link="menuiniciar" value="Todos Orçamentos" />
+          <ItemsSidebar link="relatorios" value="Controle de Estoque" />
           <ItemsSidebar link="" value="Saida estoque" />
           <ItemsSidebar link="" value="Clientes" />
           <ItemsSidebar link="" value="Produtos" />
