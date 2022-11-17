@@ -30,9 +30,11 @@ export default function FazerOrcamento() {
           id="idservices"
         >
           {/* serviços aqui */}
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+          <option value="1">Box até o teto</option>
+          <option value="2">Box padrão</option>
+          <option value="2">Janela</option>
+          <option value="2">Sacada</option>
+          <option value="3">Porta</option>
         </select>
       </div>
     </div>
