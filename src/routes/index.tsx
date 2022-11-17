@@ -1,14 +1,14 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import MenuIniciar from '../pages/MenuIniciar'
-import Relatorios from '../pages/Relatorios'
-import TelaOrcamento from '../pages/TelaOrcamento'
+import ControleEstoque from '../pages/ControleEstoque'
+import FazerOrcamento from '../pages/FazerOrcamento'
+import TodosOrcamentos from '../pages/TodosOrcamentos'
 
 export const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/fazerorcamento" element={<TelaOrcamento />} />
-      <Route path="/menuiniciar" element={<MenuIniciar />} />
-      <Route path="/relatorios" element={<Relatorios />} />
+      <Route path="/fazerorcamento" element={<FazerOrcamento />} />
+      <Route path="/controleestoque" element={<ControleEstoque />} />
+      <Route path="/todosorcamentos" element={<TodosOrcamentos />} />
 
 
       {/* Rota inexistente volta para esta tela */}

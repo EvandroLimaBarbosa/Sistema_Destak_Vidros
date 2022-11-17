@@ -23,7 +23,8 @@ export default function Sidebar(props: SidebarProps) {
         <button>
           <props.icon
             onClick={props.onClick}
-            className="hover:text-[#787878]"
+            className="hover:text-[#787878] transition ease-in hover:scale-110 duration-400
+            "
             size={40}
             weight="bold"
           />
@@ -33,10 +34,10 @@ export default function Sidebar(props: SidebarProps) {
 
       {/* container dos links */}
       {props.activeAllScreen && (
-        <div>
+        <div className="">
           <ItemsSidebar onClick={props.onClick} link="fazerorcamento" value="Fazer Orçamento" />
-          <ItemsSidebar onClick={props.onClick} link="menuiniciar" value="Todos Orçamentos" />
-          <ItemsSidebar onClick={props.onClick} link="relatorios" value="Controle de Estoque" />
+          <ItemsSidebar onClick={props.onClick} link="todosorcamentos" value="Todos Orçamentos" />
+          <ItemsSidebar onClick={props.onClick} link="controleestoque" value="Controle de Estoque" />
           <ItemsSidebar onClick={props.onClick} link="" value="Saida estoque" />
           <ItemsSidebar onClick={props.onClick} link="" value="Clientes" />
           <ItemsSidebar onClick={props.onClick} link="" value="Produtos" />
