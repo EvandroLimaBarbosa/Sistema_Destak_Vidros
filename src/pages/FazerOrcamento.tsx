@@ -25,7 +25,9 @@ export default function FazerOrcamento() {
       transition
       ease-in-out
       h-10
-      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      
+      [&>option]:text-center"
           name="services"
           id="idservices"
         >
