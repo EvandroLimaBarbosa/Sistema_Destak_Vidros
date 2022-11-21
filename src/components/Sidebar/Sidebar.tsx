@@ -12,7 +12,7 @@ export default function Sidebar(props: SidebarProps) {
     //  container da sidebar
     <div
       className={`bg-[#172645] top-0 ${
-        props.activeAllScreen ? "" : "h-[70px]"
+        props.activeAllScreen ? "pb-3" : "h-[70px]"
       } left-0 w-[280px] absolute`}
     >
       {/* container do header */}
