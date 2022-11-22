@@ -4,11 +4,11 @@ export default function FazerOrcamento() {
   return (
     // container principal
     <div
-      className={`flex rounded-sm border-[2px] border-[#A4A4A4] m-[15px] h-[650px]`}
+      className={`flex rounded-sm border-[0.01em] border-[#A4A4A4] m-[15px] h-[650px]`}
     >
       {/* projeto aqui */}
       <div
-        className={`flex rounded-sm border-[2px] border-[#A4A4A4] m-[15px] w-[310px] p-[15px] justify-center xl:w-96`}
+        className={`flex rounded-sm border-[0.01em] border-[#A4A4A4] m-[15px] w-[310px] p-[15px] justify-center xl:w-96`}
       >
         <select
           className="form-select appearance-none
