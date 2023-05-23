@@ -1,4 +1,4 @@
-import LadoProjeto from "../components/LadoProjeto";
+import Projeto from "../components/Projeto";
 
 export default function FazerOrcamento() {
   console.log(`bg-black h-[${window.screen.height - 85}px] m-[15px]`);
@@ -10,7 +10,7 @@ export default function FazerOrcamento() {
     >
       {/* projeto aqui */}
       
-       <LadoProjeto/>
+       <Projeto/>
     </div>
   );
 }
