@@ -9,7 +9,7 @@ export default function InputTamanho(props: InputTamanhoProps): JSX.Element {
 
   const handleNumChange = (event: ChangeEvent<HTMLInputElement>) => {
     const limit = 6;
-    setNum(event.target.value.slice(0, limit));
+    setNum(event.target.value.slice(0, limit).replace(/\D/g, ""));
   };
 
   return (
@@ -18,7 +18,7 @@ export default function InputTamanho(props: InputTamanhoProps): JSX.Element {
       <input
         className="py-3 border-black h-8 border rounded text-sm placeholder:text-zinc-500 p-2 shadow-[0px_3px_5px_#0000008a] leading-normal text-center"
         placeholder={`Digite a ${props.title.charAt(0).toUpperCase() + props.title.slice(1).toLowerCase()}`}
-        type="number"
+        type="text"
         id="input_tamanho"
         min={0}
         value={num}

@@ -6,7 +6,7 @@ export default function FazerOrcamento() {
   return (
     // container principal
     <div
-      className={`flex rounded-sm border-[0.01em] border-[#A4A4A4] m-[15px] h-[650px]`}
+      className={`flex rounded-sm border-[0.01em] border-[#A4A4A4] h-[650px]`}
     >
       {/* projeto aqui */}
       
