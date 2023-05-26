@@ -1,4 +1,5 @@
-import Projeto from "../components/Projeto";
+import Projeto from "../components/ColunasPrincipal/Projeto";
+import Opcoes from "../components/ColunasPrincipal/Opcoes";
 
 export default function FazerOrcamento() {
   console.log(`bg-black h-[${window.screen.height - 85}px] m-[15px]`);
@@ -11,6 +12,7 @@ export default function FazerOrcamento() {
       {/* projeto aqui */}
       
        <Projeto/>
+       <Opcoes/>
     </div>
   );
 }

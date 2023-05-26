@@ -3,7 +3,7 @@ import { ArrowDropDown } from '@mui/icons-material';
 import { styled } from '@mui/system';
 
 const Input = styled('input')(({ theme }) => ({
-  width: 282,
+  width: '100%',
   backgroundColor: 'transparent',
   fontFamily: 'Inter',
   fontWeight: '700',
