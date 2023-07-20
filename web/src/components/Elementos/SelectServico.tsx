@@ -36,7 +36,34 @@ const Listbox = styled('ul')(({ theme }) => ({
   },
 }));
 
+
+const servicos = [
+  { nome: 'Box Padrão' },
+  { nome: 'Box Até o Teto' },
+  { nome: 'Porta 2 Folhas' },
+  { nome: 'Porta 4 Folhas' },
+  { nome: 'Janela 2 Folhas' },
+  { nome: 'Janela 4 Folhas' },
+  { nome: 'Vitrine de Vidro' },
+  { nome: 'Espelho Decorativo' },
+  { nome: 'Divisória de Vidro' },
+  { nome: 'Tampo de Mesa' },
+  { nome: 'Fachada de Vidro' },
+  { nome: 'Cobertura de Vidro' },
+  { nome: 'Guarda-corpo de Vidro' },
+  { nome: 'Prateleiras de Vidro' },
+  { nome: 'Vidro Temperado' },
+  { nome: 'Vidro Laminado' },
+  { nome: 'Vidro Serigrafado' },
+  { nome: 'Vidro Acidato' },
+  { nome: 'Vidro Jateado' },
+  { nome: 'Vidro Colorido' },
+  { nome: 'Vidro Reflecta' },
+  // Add more service options here
+];
+
 export default function SelectServico() {
+  
   const {
     getRootProps,
     getInputProps,
@@ -77,27 +104,3 @@ export default function SelectServico() {
   );
 }
 
-const servicos = [
-  { nome: 'Box Padrão' },
-  { nome: 'Box Até o Teto' },
-  { nome: 'Porta 2 Folhas' },
-  { nome: 'Porta 4 Folhas' },
-  { nome: 'Janela 2 Folhas' },
-  { nome: 'Janela 4 Folhas' },
-  { nome: 'Vitrine de Vidro' },
-  { nome: 'Espelho Decorativo' },
-  { nome: 'Divisória de Vidro' },
-  { nome: 'Tampo de Mesa' },
-  { nome: 'Fachada de Vidro' },
-  { nome: 'Cobertura de Vidro' },
-  { nome: 'Guarda-corpo de Vidro' },
-  { nome: 'Prateleiras de Vidro' },
-  { nome: 'Vidro Temperado' },
-  { nome: 'Vidro Laminado' },
-  { nome: 'Vidro Serigrafado' },
-  { nome: 'Vidro Acidato' },
-  { nome: 'Vidro Jateado' },
-  { nome: 'Vidro Colorido' },
-  { nome: 'Vidro Reflecta' },
-  // Add more service options here
-];
